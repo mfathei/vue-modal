@@ -2,7 +2,7 @@
 var template = `
 			<!-- template for the modal component -->
 			<div id="modal-template">
-			  <div name="modal">
+			  <transition name="modal">
 			    <div class="modal-mask">
 			      <div class="modal-wrapper">
 			        <div class="modal-container">
@@ -30,7 +30,7 @@ var template = `
 			        </div>
 			      </div>
 			    </div>
-			  </div>
+			  </transition>
 			</div>
 
 		`;
